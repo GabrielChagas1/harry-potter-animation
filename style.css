@@ -387,3 +387,9 @@ body{
     animation-delay: 11.5s;
 }
 
+@media screen and (max-width: 500px) {
+    .wrapper{
+        font-size: 12px;
+    }
+
+}
