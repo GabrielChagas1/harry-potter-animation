@@ -340,6 +340,12 @@ body{
     animation: cloud-float 10s infinite;
 }
 
+@keyframes cloud-float {
+    100%{
+        transform: translateX(-50em);
+    }
+}
+
 .cloud::before{
     position: absolute;
     content: '';
