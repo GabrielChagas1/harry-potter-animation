@@ -16,3 +16,20 @@ body{
     overflow: hidden;
 }
 
+.container{
+    height: 21.87em;
+    width: 21.87em;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: fly 7s infinite;
+}
+
+@keyframes fly {
+    50%{
+        transform: translateY(-6.25em);
+    }
+}
+
