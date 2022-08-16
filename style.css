@@ -261,3 +261,28 @@ body{
     bottom: 2.25em;
 }
 
+.eye{
+    position: absolute;
+    background-color: #202020;
+    height: .68em;
+    width: 0.68em;
+    border-radius: 50%;
+    box-shadow: 0 0 0 .56em #f3ccb4, 0 0 0 .62em #202020;
+    top: 2.37em;
+    left: 1.12em;
+    transform: scale(1.05);
+}
+
+.eye::before{
+    position: absolute;
+    content: '';
+    background-color: #202020;
+    height: .68em;
+    width: .68em;
+    border-radius: 50%;
+    top: 0;
+    left: 2.75em;
+    box-shadow: 0 0 0 .56em #f3ccb4, 0 0 0 .62em #202020;
+    transform: scale(1.05);
+}
+
