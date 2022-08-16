@@ -253,3 +253,11 @@ body{
     left: -4.37em;
 }
 
+.glasses{
+    height: .12em;
+    width: 5.62em;
+    background-color: #202020;
+    position: absolute;
+    bottom: 2.25em;
+}
+
