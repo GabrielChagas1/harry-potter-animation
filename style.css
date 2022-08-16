@@ -330,3 +330,54 @@ body{
     border-bottom: .12em solid #202020;
 }
 
+.cloud{
+    background: #fff;
+    height: 2.18em;
+    width: 7.5em;
+    border-radius: 7.5em;
+    position: absolute;
+    right: -8.12em;
+    animation: cloud-float 10s infinite;
+}
+
+.cloud::before{
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    height: 4.06em;
+    width: 4.06em;
+    border-radius: 50%;
+    bottom: .62em;
+    left: .93em;
+}
+
+.cloud::after{
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    height: 2.81em;
+    width: 2.81em;
+    border-radius: 50%;
+    bottom: .62em;
+    right: .62em;
+}
+
+.cloud-1{
+    top: 3.75em;
+    animation-delay: 3s;
+}
+
+.cloud-2{
+    top: 9.37em;
+    animation-delay: 8s;
+}
+
+.cloud-3{
+    top: 25em;
+}
+
+.cloud-4{
+    top: 15.62em;
+    animation-delay: 11.5s;
+}
+
