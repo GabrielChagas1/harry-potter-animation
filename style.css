@@ -112,3 +112,24 @@ body{
     transform: rotate(-20deg);
 }
 
+.leg{
+    position: absolute;
+    background-color: #603e21;
+    height: 2.5em;
+    width: 1.25em;
+    bottom: 6em;
+    left: 8.43em;
+    transform: rotate(70deg);
+    border-radius: 0 1.25em 0 0;
+}
+
+.leg::before{
+    position: absolute;
+    content: '';
+    background-color: #202020;
+    height: .5em;
+    width: 1.56em;
+    border-radius: 0 1.25em 1.25em 0;
+    top: 2.5em;
+}
+
