@@ -77,3 +77,38 @@ body{
     top: 19.37em;
     z-index: 1;
 }
+
+.cloak{
+    width: 0;
+    height: 3.12em;
+    border-left: 6.25em solid #202020;
+    border-top: 2.5em solid transparent;
+    position: absolute;
+    bottom: 7.62em;
+    left: 4.68em;
+    transform: rotate(-20deg);
+}
+
+.cloak::before{
+    position: absolute;
+    content: '';
+    background: linear-gradient(#202020 93%, #fff 95%);
+    height: 3.12em;
+    width: 1.25em;
+    right: -.93em;
+    top: 1.12em;
+    transform: rotate(-20deg);
+}
+
+.cloak::after{
+    position: absolute;
+    content: '';
+    height: 0.62em;
+    width: 0.93em;
+    background-color: #f3ccb4;
+    top: 4.12em;
+    left: .5em;
+    border-radius: 0 0 .62em .62em;
+    transform: rotate(-20deg);
+}
+
