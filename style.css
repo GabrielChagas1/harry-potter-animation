@@ -286,3 +286,47 @@ body{
     transform: scale(1.05);
 }
 
+.scar{
+    height: .5em;
+    width: .09em;
+    background-color: #ae8d71;
+    position: absolute;
+    top: .56em;
+    left: 1.18em;
+    transform: rotate(-20deg);
+}
+
+.scar::before{
+    position: absolute;
+    content: '';
+    height: .09em;
+    width: .37em;
+    background-color: #ae8d71;
+    transform: rotate(20deg);
+    left: -.37em;
+    bottom: .06em;
+}
+
+.scar::after{
+    position: absolute;
+    content: '';
+    height: .5em;
+    width: .09em;
+    background-color: #ae8d71;
+    left: -.31em;
+    bottom: -.37em;
+    transform: rotate(-10deg);
+}
+
+.mouth{
+    position: absolute;
+    bottom: .62em;
+    left: 2.37em;
+    background-color: transparent;
+    height: .93em;
+    width: .93em;
+    border-radius: 50%;
+    border: .12em solid transparent;
+    border-bottom: .12em solid #202020;
+}
+
