@@ -133,3 +133,13 @@ body{
     top: 2.5em;
 }
 
+.face{
+    position: absolute;
+    background-color: #f3ccb4;
+    height: 5em;
+    width: 5.62em;
+    bottom: 10em;
+    left: 8.12em;
+    border-radius: 0 0 40% 40%;
+}
+
